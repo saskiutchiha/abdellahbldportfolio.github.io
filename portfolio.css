@@ -1,0 +1,69 @@
+h6{font-family: "Press Start 2P";float: left;margin-top: 10px;
+    }
+#kk:hover{
+    text-shadow: 0px 0px 10px rgb(203, 240, 255);
+    color: cyan;
+}
+#kk{color:chartreuse ;font-size: large;;}
+body{background-color: black;
+     background-image: url("OIP.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-position: center;
+    background-size: cover;}
+     
+#about{font-family: "Press Start 2P";color:chartreuse ;margin-left:100px ;transform: 180deg;}
+#p1{border-style:outset ;
+   border-width:9px ;
+    border-color:greenyellow;
+    color: chartreuse;
+    width: 500px;
+    height: 400px;
+    /* margin-left:400px; */
+    margin-left: auto;
+    margin-right: auto;
+    clear: left;}
+.h{position: sticky; top : 0px}
+#com{background-color: azure; margin-left:540px ;height: 100px; width: 100px;border-radius: 50px;
+    }
+#com:hover{background-color: rgb(211, 255, 146);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    animation: anim;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;
+     }
+@keyframes anim{
+    /* from{margin-left: 0%;}
+    to{margin-left: 50%;} */
+    from{transform: rotateY(-360deg);}
+}   
+.github{height: 100px; border-radius: 50px; background-color: rgb(43, 42, 59); border: none;}
+.github:hover{background-color:  #05e31f; box-shadow: 0px 0pc 20px #05e31f;
+    animation: anim;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;}
+.py{height: 100px; border-radius: 50px; background-color: rgb(43, 42, 59);border: none;}
+.py:hover{background-color:#05e31f; 
+    box-shadow: 0px 0px 20px #05e31f;
+    animation: anim;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;}
+.jav{height: 105px; border-radius: 55px; background-color: rgb(43, 42, 59);border: none}
+.jav:hover{background-color:#05e31f; 
+    box-shadow: 0px 0px 20px #05e31f;
+    animation: anim;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;
+   }
+.cmd{background-color: rgb(43, 42, 59);border-radius: 50px;border: none ;height: 100px;}
+.cmd:hover{background-color:#05e31f; 
+    box-shadow: 0px 0px 20px #05e31f;
+    animation: anim;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;}
+#git{margin-left: 90px;}
+#pyy{margin-left: 330px;}
+#javv{margin-left: 340px;}
+#cmdd{margin-top: 150px; margin-left: 850px;}
+#com{margin-top: 70px;}
+
