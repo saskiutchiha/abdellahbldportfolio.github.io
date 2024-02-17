@@ -5,26 +5,30 @@ h6{font-family: "Press Start 2P";float: left;margin-top: 10px;
     color: cyan;
 }
 #kk{color:chartreuse ;font-size: large;;}
-body{background-color: black;
-     background-image: url("OIP.jpg");
+body{background: transparent;
+     background-image: url("840843081452.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
      background-position: center;
-    background-size: cover;}
+    background-size: cover;
+    filter: contrast(150%);
+    
+    }
      
 #about{font-family: "Press Start 2P";color:chartreuse ;margin-left:100px ;transform: 180deg;}
-#p1{border-style:outset ;
+#p1{ 
    border-width:9px ;
     border-color:greenyellow;
     color: chartreuse;
     width: 500px;
     height: 400px;
-    /* margin-left:400px; */
-    margin-left: auto;
-    margin-right: auto;
+   
+    margin-left: -200px;
+    /* margin-right: auto; */
+    font-size: 450%;
     clear: left;}
 .h{position: sticky; top : 0px}
-#com{background-color: azure; margin-left:540px ;height: 100px; width: 100px;border-radius: 50px;
+#com{background-color: azure; margin-left:45% ;height: 100px; width: 100px;border-radius: 50px;
     }
 #com:hover{background-color: rgb(211, 255, 146);
     box-shadow: 0px 0px 20px rgb(255, 255, 255);
@@ -61,9 +65,50 @@ body{background-color: black;
     animation: anim;
     animation-duration: 5s;
    animation-iteration-count: infinite;}
-#git{margin-left: 90px;}
-#pyy{margin-left: 330px;}
-#javv{margin-left: 340px;}
-#cmdd{margin-top: 150px; margin-left: 850px;}
-#com{margin-top: 70px;}
 
+
+
+
+
+#li{list-style-type: none ;color: lime ; font-style: "Press Start 2P" ; margin-top: 10px; display: flex;flex-direction: row; gap :20px ;
+      position: relative;right: -700px;}
+header{gap : 300px}
+#logo{border-radius: 150px; margin-left: -60%; margin-top: 30px;
+        height: 300px;
+        animation: logoanim;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        box-shadow: 0px 0px 20px rgb(164, 253, 154);
+     }
+@keyframes logoanim{
+    from{border-radius: 150px;}
+    to{border-radius: 50px;}
+}
+#logopa{display: flex; flex:row;gap :300px; height: 70%;position:sticky; left: 10px;}
+#p2{border-width:9px ;
+    border-color:greenyellow;
+    color: chartreuse;
+    width: 500px;
+    height: 400px;
+   
+    margin-left: -200px;
+    /* margin-right: auto; */
+    font-size: 450%;
+    clear: left;}
+#welcom{display: flex; flex:row ;gap:270px;margin-left: -70px;margin-top: 10px;
+    animation: animpa;
+    animation-duration: 10s;
+     animation-iteration-count: infinite;}
+#p1,#p2{font-size: 900%;text-shadow: 0px 0px 20px rgb(28, 255, 3);
+   
+}
+@keyframes animpa{
+from{filter: blur(0px);}
+to{filter: blur(50px);}
+}
+#bouttons{position: relative; width: 50%; right: -50%; 
+    box-shadow: 0px 0px 20px rgb(28, 255, 3); 
+    background-color: rgb(0, 27, 9);
+    }
+#fir{position: relative; gap: 40%; box-shadow: 0px 0px 20px rgb(28, 255, 3);}
+#sec{gap : 100px}
